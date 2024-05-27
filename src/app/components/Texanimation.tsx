@@ -25,7 +25,7 @@ export default function TextAnimation() {
 
     const timeout = setTimeout(() => {
       setSubIndex((prev) => prev + (reverse ? -1 : 1));
-    }, Math.max(reverse ? 75 : subIndex === textArray[index].length ? 1000 : 150, parseInt(Math.random() * 350)));
+    }, Math.max(reverse ? 75 : subIndex === textArray[index].length ? 1000 : 150, Math.floor(Math.random() * 350)));
 
     return () => clearTimeout(timeout);
   }, [subIndex, index, reverse, textArray]);
@@ -39,7 +39,7 @@ export default function TextAnimation() {
   }, [blink]);
 
   return (
-    <h2 className="text-xl shadow-lg  text-purple-700">
+    <h2 className="text-xl shadow-lg text-purple-700">
       {`${textArray[index].substring(0, subIndex)}${blink ? "|" : " "}`}
     </h2>
   );
