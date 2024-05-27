@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="bg-gray-800 min-h-screen p-4 sm:p-8">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold text-center text-white mb-8">Arquitectura de Microservicios: Implementación y Simulación"</h1>
+        <h1 className="text-4xl font-bold text-center text-white mb-8">Arquitectura de Microservicios: Implementación y Simulación</h1>
         
         <section className="mb-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
