@@ -1,9 +1,9 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 
 export default function TextAnimation() {
   const [text, setText] = useState("");
-  const textArray = ["INGENIERO EN INFORMATICA & SISTEMAS . . ."];
+  const textArray = useMemo(() => ["INGENIERO EN INFORMATICA & SISTEMAS . . ."], []);
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
   const [blink, setBlink] = useState(true);
