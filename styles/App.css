@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  }
+
+  body {
+    background-color: #1a1a1a; /* Fondo gris muy oscuro para modo oscuro */
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f0f0f0; /* Fondo gris claro para modo claro, o cualquier otro color que prefieras */
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
