@@ -11,11 +11,11 @@ interface Projects {
 }
 
 export default async function Home() {
-    const response = await axios.get<Projects[]>(`${parsedEnv.API_URL}/api/projects`);
+    const response = await axios.get<Projects[]>(`${parsedEnv.API_URL}/projects`);
 
     return (
         <main className="p-4 md:p-10 bg-gray-800 min-h-screen flex flex-col items-center justify-center">
-            <h1 className="text-3xl md:text-5xl mb-8 text-center text-white">
+            <h1 className="text-3xl md:text-5xl mb-8 text-white text-justify">
             Información de importancia en la Ingenieria </h1>
             <div className="w-full flex flex-col items-center">
                 {

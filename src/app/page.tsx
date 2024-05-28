@@ -1,8 +1,8 @@
 'use client';
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaLinkedinIn, FaGamepad, FaUtensils, 
-  FaDumbbell, FaFutbol, FaMusic, FaCamera } from 'react-icons/fa';
+import { FaGithub, FaGamepad, FaUtensils, 
+  FaDumbbell, FaMusic, FaCamera, FaArrowCircleUp, FaTelegram } from 'react-icons/fa';
 import { SiAdobephotoshop } from 'react-icons/si';
 import { motion } from 'framer-motion';
 import TextAnimation from "./components/Texanimation";
@@ -55,17 +55,17 @@ export default function Home() {
              nuevas cosas y tecnologias.  Además de mi dedicación a la programación, también difruto de pasatiempos como ir al gimnasio y difsrutar de un cafe o una comida con amigos👌 .
           </p>
           <div className="mb-4">
-            <p className="text-lg text-gray-400">Contacto:</p>
+            <p className="text-lg text-gray-400">Contacto por correo:</p>
             <p className="text-lg text-white">luismarianogudi@gmail.com</p>
           </div>
           <div>
-            <p className="text-lg text-gray-400">Redes Sociales:</p>
+            <p className="text-lg text-gray-400">Metodos Sociales:</p>
             <div className="flex justify-center space-x-4">
-              <Link href="https://www.linkedin.com/in/luis-mariano-gutierrez-divas-938a48281/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
-                <FaLinkedinIn size={24} />
+            <Link href="https://t.me/+50254792821" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
+                <FaTelegram size={35} />
               </Link>
               <Link href="https://github.com/Marianito5382" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
-                <FaGithub size={24} />
+                <FaGithub size={35} />
               </Link>
             </div>
           </div>
@@ -159,8 +159,9 @@ export default function Home() {
             <h2 className="text-xl font-bold text-white mb-2">AWS</h2>
           </motion.div>
           <motion.div className="bg-gray-700 p-4 rounded-lg shadow-md">
-            <Link href=''>
+          <Link href=''>
             <h2 className="text-xl font-bold text-white mb-2">REGRESAR</h2>
+            <FaArrowCircleUp size={25}/>
             </Link>
           </motion.div>
 
