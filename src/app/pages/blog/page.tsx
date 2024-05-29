@@ -11,7 +11,7 @@ interface Projects {
 }
 
 export default async function Home() {
-    const response = await axios.get<Projects[]>(`${'https://despliegue-production-ead3.up.railway.app/api'}/projects`);
+    const response = await axios.get<Projects[]>(`${parsedEnv.API_URL}`);
 
     return (
         <main className="p-4 md:p-10 bg-gray-800 min-h-screen flex flex-col items-center justify-center">
