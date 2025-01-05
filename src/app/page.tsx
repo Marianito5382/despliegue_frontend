@@ -24,7 +24,7 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <Image
-              src="/myself.jpg"
+              src="/myself.jpeg"
               width={320}
               height={320}
               alt="foto de mi"
