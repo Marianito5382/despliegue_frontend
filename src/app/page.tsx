@@ -9,7 +9,7 @@ import TextAnimation from "./components/Texanimation";
 
 export default function Home() {
   return (
-    <main className="bg-gray-800 min-h-screen flex flex-col items-center p-8">
+    <main className="bg-stone-800 min-h-screen flex flex-col items-center p-8">
       <motion.div
         className="max-w-2xl w-full text-center"
         initial={{ y: -50, opacity: 0 }}
