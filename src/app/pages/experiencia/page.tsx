@@ -7,7 +7,7 @@ import BotonRegreso from "@/app/components/Button";
 
 export default function Home() {
   return (
-    <main className="bg-gray-800 min-h-screen p-4 sm:p-8">
+    <main className="bg-stone-800 min-h-screen p-4 sm:p-8">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-white mb-8">
           Habilidades - Logros - Educación
@@ -21,7 +21,7 @@ export default function Home() {
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1">
-              <div className="bg-red-900 p-4 rounded-lg shadow-lg transform transition-transform hover:scale-105">
+              <div className="bg-amber-900 p-4 rounded-lg shadow-lg transform transition-transform hover:scale-105">
                 <Image
                   src="/experiencia.jpeg"
                   alt="Descripción de la imagen 1"
@@ -60,7 +60,7 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <div className="bg-red-900 p-4 rounded-lg shadow-lg transform transition-transform hover:scale-105">
+              <div className="bg-amber-900 p-4 rounded-lg shadow-lg transform transition-transform hover:scale-105">
                 <Image
                   src="/win2023.jpeg"
                   alt="triunfando"
@@ -81,7 +81,7 @@ export default function Home() {
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1">
-              <div className="bg-red-900 p-4 rounded-lg shadow-lg transform transition-transform hover:scale-105">
+              <div className="bg-amber-900 p-4 rounded-lg shadow-lg transform transition-transform hover:scale-105">
                 <Image
                   src="/amigos.jpeg"
                   alt="experiencias-bonitas"
@@ -122,7 +122,7 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <div className="bg-red-900 p-4 rounded-lg shadow-lg transform transition-transform hover:scale-105">
+              <div className="bg-amber-900 p-4 rounded-lg shadow-lg transform transition-transform hover:scale-105">
                 <Image
                   src="/universidad.png"
                   alt="mis-estudios"

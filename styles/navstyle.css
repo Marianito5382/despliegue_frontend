@@ -32,7 +32,7 @@
 }
 
 .navbar a:hover {
-  background-color: rgba(75, 8, 103, 0.409); 
+  background-color: rgba(173, 112, 8, 0.409); 
 }
 
 @media (min-width: 768px) {

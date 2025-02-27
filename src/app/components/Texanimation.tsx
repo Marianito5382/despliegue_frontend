@@ -39,7 +39,7 @@ export default function TextAnimation() {
   }, [blink]);
 
   return (
-    <h2 className="text-xl shadow-lg text-purple-700">
+    <h2 className="text-xl shadow-lg text-amber-700">
       {`${textArray[index].substring(0, subIndex)}${blink ? "|" : " "}`}
     </h2>
   );

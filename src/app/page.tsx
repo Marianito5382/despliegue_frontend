@@ -117,19 +117,19 @@ export default function Home() {
             <div>
               <label className="text-lg text-white">Comunicación</label>
               <div className="w-full bg-gray-700 rounded-full h-4 mt-2">
-                <div className="bg-purple-800 h-4 rounded-full" style={{ width: '80%' }}></div>
+                <div className="bg-amber-700 h-4 rounded-full" style={{ width: '80%' }}></div>
               </div>
             </div>
             <div>
               <label className="text-lg text-white">Dedicación</label>
               <div className="w-full bg-gray-700 rounded-full h-4 mt-2">
-                <div className="bg-purple-800 h-4 rounded-full" style={{ width: '70%' }}></div>
+                <div className="bg-amber-700 h-4 rounded-full" style={{ width: '70%' }}></div>
               </div>
             </div>
             <div>
               <label className="text-lg text-white">Trabajo en equipo</label>
               <div className="w-full bg-gray-700 rounded-full h-4 mt-2">
-                <div className="bg-purple-800 h-4 rounded-full" style={{ width: '65%' }}></div>
+                <div className="bg-amber-700 h-4 rounded-full" style={{ width: '65%' }}></div>
               </div>
             </div>
           </div>
