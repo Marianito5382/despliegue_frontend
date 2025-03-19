@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa';
 
 export default function Home() {
   return (
-    <main className="bg-gray-800 min-h-screen p-4 sm:p-8">
+    <main className="bg-stone-800 min-h-screen p-4 sm:p-8">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-white mb-8">Arquitectura de Microservicios: Implementación y Simulación</h1>
         
@@ -34,7 +34,7 @@ export default function Home() {
         <section className="mb-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
-            <h4 className="text-lg leading-relaxed text-purple-800 ">Mi rol:</h4>
+            <h4 className="text-lg leading-relaxed text-amber-600 ">Mi rol:</h4>
               <p className="text-lg leading-relaxed text-white text-justify">
                 El papel que desempeñe en el proyecto, fue el de crear y gestionar las bases de datos, creadno archivos de respaldo para cada base, que eran los .init 
                 que estos sirven para guardar los requerimientos y creación de las tablas de las bases, se uso esto para optimizar le tiempo de estar ingresando a la base de datos y 
@@ -54,13 +54,13 @@ export default function Home() {
         </section>
 
         <div className="text-center mt-8">
-          <Link href="https://github.com/Marianito5382/Proyecto-final-virtualizacion" className="inline-flex items-center text-lg text-purple-600 hover:underline">
+          <Link href="https://github.com/Marianito5382/Proyecto-final-virtualizacion" className="inline-flex items-center text-lg text-amber-700 hover:underline">
             <FaGithub className="mr-2" /> Repositorio del Proyecto
           </Link>
         </div>
 
         <div className="text-center mt-8">
-          <Link href="/pages/proyectos" className="inline-flex items-center text-lg text-purple-600 hover:underline">
+          <Link href="/pages/proyectos" className="inline-flex items-center text-lg text-amber-700 hover:underline">
             &lt; Volver a Proyectos
           </Link>
         </div>

@@ -10,7 +10,7 @@ export default function CardProject() {
     '/fl_onu.jpeg',
     '/activeimg.jpg',
     '/dockercimg.jpeg',
-    '/dedos-IA.jpeg'
+    '/Practice.png'
   ];
 
   const descriptions = [

@@ -115,9 +115,11 @@ export default function Home() {
               <h1 className="text-3xl md:text-6xl lg:text-5xl mb-8 text-center text-white font-bold drop-shadow-lg">
              Educación</h1>
                 <p className="text-lg leading-relaxed text-white text-justify">
-                  Mi bachillerato lo estudie en el Colegio el Valle, en quetzaltenango, donde estudie bachillerato en computación. Luego segui mis estudios en la universidad Rafael Landivar, donde actualmente estudio mi ultimo año de Ingeniería en Informatica y Sistemas.
+                  Mi bachillerato lo estudie en el Colegio el Valle, en quetzaltenango, donde estudie bachillerato en computación. Luego segui mis estudios en la universidad Rafael Landivar, donde actualmente cerre cursos de la carrera de Ingeniería en Informatica y Sistemas.
                   Donde he recibido talleres importantes, donde se han aplicado bastante en la mi carrera y además que me he informado por medio de redes sociales, youtube e internet, he tenido que aprender y 
-                  fortalecer estos concomientos, ya que en verdad los cursos que he llevado han sido muy importantes en mi formación.
+                  fortalecer estos concomientos, ya que en verdad los cursos que he llevado han sido muy importantes en mi formación. <br/>
+                  También he trabajado en el desarrollo de proyectos innovadores que abordan temas actuales y aplicables en distintos ámbitos. Entre ellos, la implementación de una red de servicios utilizando máquinas virtuales, la integración de AWS con instancias en Docker 
+                  dentro de una máquina virtual, así como la práctica de ciberseguridad mediante la demostración de un ataque en vivo para la extracción de datos mediante la vulneración de accesos.
                 </p>
               </div>
             </div>
@@ -134,6 +136,38 @@ export default function Home() {
             </div>
           </div>
         </motion.section>
+
+        <motion.section // texto-parte experiencia
+          className="mb-16"
+          initial={{ opacity: 0, y: 50 }} 
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.6 }} 
+        >
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div className="order-2 md:order-1">
+              <div className="bg-amber-900 p-4 rounded-lg shadow-lg transform transition-transform hover:scale-105">
+                <Image
+                  src="/exito-M.jpeg"
+                  alt="experiencias-bonitas"
+                  width={500}
+                  height={300}
+                  className="rounded-lg"
+                />
+              </div>
+            </div>
+            <div className="order-1 md:order-2">
+              <div className="bg-gray-900 p-4 rounded-lg shadow-lg transform transition-transform hover:scale-105">
+                <p className="text-lg leading-relaxed text-white text-justify">
+                Asimismo, desarrollé una bitácora personal empleando React, junto con NestJS y Next.js, y una aplicación web desplegada en la red con un dominio propio para un centro de salud. Este último proyecto fue diseñado con el objetivo de optimizar el control de las actividades 
+                realizadas en la institución, agilizando los procesos tradicionales mediante herramientas tecnológicas más modernas y accesibles desde cualquier dispositivo móvil.
+    
+                Algunos de los procesos más relevantes pueden visualizarse en la pestaña correspondiente dentro de la barra de navegación. En esta sección, presentaré este último proyecto desarrollado por la promoción de Ingeniería en Informática y Sistemas 2024. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </motion.section>
+
         <BotonRegreso />
       </div>
     </main>

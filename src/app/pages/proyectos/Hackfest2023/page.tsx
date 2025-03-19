@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa';
 
 export default function Home() {
   return (
-    <main className="bg-gray-800 min-h-screen p-4 sm:p-8">
+    <main className="bg-stone-800 min-h-screen p-4 sm:p-8">
       <div className="max-w-4xl mx-auto">
       <h1 className="text-4xl font-bold text-center text-white mb-8 tracking-wide font-sans">
   Mate-bug
@@ -38,7 +38,7 @@ export default function Home() {
         <section className="mb-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
-              <h4 className="text-lg leading-relaxed text-purple-800 ">Mi rol:</h4>
+              <h4 className="text-lg leading-relaxed text-amber-600 ">Mi rol:</h4>
               <p className="text-lg leading-relaxed text-white text-justify">
                 Mi rol en este proeycto fue ayduar a crear las pages y enlazarlas entre ellas para la barra de navegación para que el usuario pueda navegar enntre el sitio. Tambien otra 
                 contribución que tive fue de llenar de informacion las paginas de algunos temas y tambien los ejercicios y la solución correspondiente. Tambien el logo y editar algunas cuestiones
@@ -58,13 +58,13 @@ export default function Home() {
         </section>
 
         <div className="text-center mt-8">
-          <Link href="https://github.com/TatoBig/matebug" className="inline-flex items-center text-lg text-purple-800 hover:underline">
+          <Link href="https://github.com/TatoBig/matebug" className="inline-flex items-center text-lg text-amber-700 hover:underline">
             <FaGithub className="mr-2" /> Repositorio del Proyecto
           </Link>
         </div>
 
         <div className="text-center mt-8">
-          <Link href="/pages/proyectos" className="inline-flex items-center text-lg text-purple-800 hover:underline">
+          <Link href="/pages/proyectos" className="inline-flex items-center text-lg text-amber-700 hover:underline">
             &lt; Volver a Proyectos
           </Link>
         </div>
