@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaYoutube } from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -60,6 +60,12 @@ export default function Home() {
         <div className="text-center mt-8">
           <Link href="https://github.com/TatoBig/matebug" className="inline-flex items-center text-lg text-amber-700 hover:underline">
             <FaGithub className="mr-2" /> Repositorio del Proyecto
+          </Link>
+        </div>
+
+        <div className="text-center mt-8">
+          <Link href="https://www.youtube.com/watch?v=O1zBH4aybcg&ab_channel=MemorialdeAngelSam" className="inline-flex items-center text-lg text-amber-700 hover:underline">
+            <FaYoutube className="mr-2" /> Video Explicativo
           </Link>
         </div>
 
